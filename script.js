@@ -26,7 +26,7 @@ scrollTopBtn.addEventListener('click', () => {
 });
 
 // ===== CONTACT FORM WITH EMAILJS =====
-emailjs.init('2cX5vi5jwpLfnZVT_'); // ضع هنا User/Public Key
+emailjs.init('YOUR_PUBLIC_KEY'); // ضع هنا Public Key
 
 const form = document.getElementById('contactForm');
 const formMessage = document.getElementById('formMessage');
@@ -34,8 +34,8 @@ const formMessage = document.getElementById('formMessage');
 form.addEventListener('submit', function(e){
   e.preventDefault();
 
-  const serviceID = 'redaEmail';  // ضع Service ID
-  const templateID = 'template_xcrt6fb'; // ضع Template ID
+  const serviceID = 'YOUR_SERVICE_ID';   // ضع Service ID
+  const templateID = 'YOUR_TEMPLATE_ID'; // ضع Template ID
 
   emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
