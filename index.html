@@ -1,97 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <!-- تحسين SEO -->
-  <meta name="keywords" content="Redaallah, Frontend Developer, Web Developer, Portfolio, HTML, CSS, JavaScript, Morocco">
-  <meta name="author" content="Redaallah El Jebary">
-  <meta name="description" content="Redaallah El Jebary - 15-year-old Frontend Developer passionate about web design, HTML, CSS, and JavaScript.">
-  <!-- تحسين عرض الروابط على السوشيال -->
-  <meta property="og:title" content="Redaallah El Jebary | Frontend Developer">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Jebary_dev, Frontend Developer, Portfolio, HTML, CSS, JavaScript, Morocco">
+  <meta name="author" content="Jebary_dev">
+  <meta name="description" content="Jebary_dev - 15-year-old Frontend Developer passionate about web design, HTML, CSS, and JavaScript.">
+  <meta property="og:title" content="Jebary_dev | Frontend Developer">
   <meta property="og:description" content="15-year-old Frontend Developer passionate about web design and JavaScript.">
   <meta property="og:image" content="https://redaallaheljebary.github.io/redaallah-portfolio/preview.png">
   <meta property="og:url" content="https://redaallaheljebary.github.io/redaallah-portfolio/">
   <meta property="og:type" content="website">
-  <!-- أيقونة الموقع -->
   <link rel="icon" type="image/png" href="favicon.png">
-  <!-- تحسين أداء العرض -->
-  <meta http-equiv="Cache-Control" content="max-age=31536000, must-revalidate">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redaallah El Jebary | Frontend Developer</title>
+  <title>Jebary_dev | Frontend Developer</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-  <!-- ===== HEADER ===== -->
-  <header id="header">
-    <h1>Redaallah El Jebary</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <!-- ===== HERO ===== -->
-  <section id="home" class="hero visible">
-    <h2 class="fade-in">Hi, I'm <span>Redaallah El Jebary</span></h2>
-    <h3 class="fade-in-delay">Frontend Developer</h3>
-    <p class="fade-in-up">
-      I'm a 15-year-old passionate about programming and web development. 
-      I love creating beautiful and functional websites using HTML, CSS, and JavaScript.
-    </p>
-  </section>
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <h1>Jebary_dev</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <!-- ===== SKILLS ===== -->
-  <section id="skills" class="skills">
-    <h2>My Skills</h2>
-    <div class="skill-box">
-      <div class="skill-name">HTML</div>
-      <div class="progress-bar"><div class="progress html"></div></div>
+<!-- ===== HERO ===== -->
+<section id="home" class="hero visible">
+  <h2>Hi, I'm <span>Jebary_dev</span></h2>
+  <h3>Frontend Developer</h3>
+  <p>I'm 15 years old and passionate about web development. I create modern and responsive websites using HTML, CSS, and JavaScript.</p>
+  <a href="#contact" class="btn">Hire Me</a>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skill-box">
+    <div class="skill-name">HTML</div>
+    <div class="progress-bar"><div class="progress html"></div></div>
+  </div>
+
+  <div class="skill-box">
+    <div class="skill-name">CSS</div>
+    <div class="progress-bar"><div class="progress css"></div></div>
+  </div>
+
+  <div class="skill-box">
+    <div class="skill-name">JavaScript</div>
+    <div class="progress-bar"><div class="progress js"></div></div>
+  </div>
+</section>
+  <!-- ===== PROJECTS ===== -->
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+    <!-- Project Card Example -->
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A clean and modern portfolio website built with HTML, CSS, and JS.</p>
+      <a href="#" target="_blank" class="btn">View Project</a>
     </div>
 
-    <div class="skill-box">
-      <div class="skill-name">CSS</div>
-      <div class="progress-bar"><div class="progress css"></div></div>
+    <div class="project-card">
+      <h3>Landing Page</h3>
+      <p>Responsive landing page design with smooth animations.</p>
+      <a href="#" target="_blank" class="btn">View Project</a>
     </div>
 
-    <div class="skill-box">
-      <div class="skill-name">JavaScript</div>
-      <div class="progress-bar"><div class="progress js"></div></div>
+    <div class="project-card">
+      <h3>Web App UI</h3>
+      <p>Interactive web app interface using vanilla JavaScript.</p>
+      <a href="#" target="_blank" class="btn">View Project</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="formMessage"></p>
-  </section>
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="formMessage"></p>
+</section>
 
-  <!-- ===== FOOTER ===== -->
-
+<!-- ===== FOOTER ===== -->
 <footer>
   <div class="footer-container">
-    <p>© 2025 Redaallah El Jebary. All Rights Reserved.</p>
+    <p>© 2025 Jebary_dev. All Rights Reserved.</p>
     <div class="social-links">
-      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/Redajebary10" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/jebary_dev/" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="mailto:example@email.com"><i class="fas fa-envelope"></i></a>
     </div>
   </div>
 </footer>
 
+<!-- ===== SCROLL TO TOP ===== -->
+<button id="scrollTopBtn">↑</button>
 
-  <!-- ===== SCROLL TO TOP ===== -->
-  <button id="scrollTopBtn">↑</button>
-
-  <script src="script.js" defer></script>
-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
-
+<script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
