@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://redaallaheljebary.github.io/redaallah-portfolio/sitemap.xml
